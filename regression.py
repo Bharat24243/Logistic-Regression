@@ -1,4 +1,6 @@
-import pandas as pd data = pd.read_csv('crime_data_processed.csv') import numpy as np import matplotlib.pyplot as plt
+import pandas as pd data = pd.read_csv('crime_data_processed.csv') 
+import numpy as np 
+import matplotlib.pyplot as plt
 
 X=data.as_matrix(columns=['avg_hatecrimes_per_100k_fbi','share_voters_voted_trump']) X
 
